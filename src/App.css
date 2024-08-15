@@ -1,0 +1,218 @@
+/* *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1D0F38;
+  color: white;
+}
+
+.bookai-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: transparent;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-circle {
+  width: 20px;
+  height: 20px;
+  background-color: #6D79FF;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navigation a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.login-button {
+  background-color: #6D79FF;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-content {
+  margin-top: 50px;
+}
+
+.main-content h1 {
+  font-size: 2.5rem;
+  line-height: 1.3;
+}
+
+.highlight {
+  color: #B14EFF;
+  text-decoration: underline;
+}
+
+.description {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-buttons {
+  margin-top: 30px;
+}
+
+.get-started, .get-api-access {
+  background-color: #6D79FF;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.notice {
+  margin-top: 50px;
+  font-size: 0.9rem;
+  color: yellow;
+}
+
+/* Responsive Design */
+/* @media (max-width: 768px) {
+  .navigation {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .cta-buttons {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .main-content h1 {
+      font-size: 2rem;
+  }
+
+  .description {
+      font-size: 1rem;
+  } */
+
+  /* .header {
+      flex-direction: column;
+      gap: 20px;
+      padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-content h1 {
+      font-size: 1.8rem;
+  }
+
+  .description {
+      font-size: 0.9rem;
+  }
+
+  .get-started, .get-api-access {
+      width: 100%;
+      padding: 15px;
+  }
+
+  .login-button {
+      width: 100%;
+      padding: 15px;
+  }
+} */ */
+
+
+/* .book-categories-container {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #1D0F38;
+  color: white;
+}
+
+.book-categories-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+}
+
+.book-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.book-card {
+  background-color: #2A1456;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  color: white;
+}
+
+.book-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.book-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.book-card p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.read-more {
+  color: #B14EFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+/* @media (min-width: 768px) {
+  .book-card {
+      width: 45%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .book-card {
+      width: 30%;
+  }
+} */ 
